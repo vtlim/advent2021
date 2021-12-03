@@ -15,7 +15,7 @@ gamma = ''
 epsilon = ''
 for i in range(char_len):
     gamma += collections.Counter(deconstruct[i]).most_common()[0][0]
-    epsilon += collections.Counter(deconstruct[i]).most_common()[1][0]
+    epsilon += collections.Counter(deconstruct[i]).most_common()[-1][0]
 
 print(gamma, epsilon)
 print(int(gamma, 2), int(epsilon, 2))
