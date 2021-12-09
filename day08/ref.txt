@@ -1,0 +1,12 @@
+seg_counts = {
+    0: 6,
+    1: 2, # unique
+    2: 5,
+    3: 5,
+    4: 4, # unique
+    5: 5,
+    6: 6,
+    7: 3, # unique
+    8: 7, # unique
+    9: 6,
+}
